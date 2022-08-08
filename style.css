@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+.start {
+    width: 100%;
+    height: 10vh;
+
+}
+
+nav {
+    z-index: 1000000000;
+    position: fixed;
+    background-color: white;
+}
+
+.start nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+
+.start nav span {
+
+    color: red;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.start nav p {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.start nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.start nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.start nav li a:hover {
+    color: red;
+}
+
+.main h6 {
+    font-size: 550px;
+    position: absolute;
+    left: 1000px;
+    top: -10px;
+    font-family: "poppins";
+    color: red;
+}
+
+.box h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 60%;
+    margin: 30px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.redline {
+    height: 95vh;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.About {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box2 {
+    margin-top: 30px;
+    width: 32%;
+    height: 430px;
+    border: 3px solid red;
+
+}
+
+.box2 p {
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300px;
+    color: rgb(94, 92, 92);
+
+}
+
+.box2 h3 {
+    text-align: center;
+    position: relative;
+    top: -230px;
+}
+
+.text {
+    width: 50%;
+    text-align: end;
+}
+
+.box3 {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+}
+
+.box3 p {
+    font-size: 40px;
+
+}
+
+.box3 span {
+    color: red;
+}
+
+.box3 h1 {
+    margin-top: 8px;
+    padding: 0 10px;
+}
+
+.about-text {
+    opacity: 0.6;
+    width: 700px;
+    height: 500px;
+
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+.about-text::-webkit-scrollbar {
+    display: none;
+}
+
+.text {
+    border-right: 4px solid red;
+    padding: 8px 30px;
+}
+
+.Services {
+    width: 100%;
+    height: 86vh;
+    background-color: pink;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.box4 p {
+    font-size: 40px;
+
+}
+
+.box4 span {
+    color: red;
+}
+
+.box4 h1 {
+    margin-top: 8px;
+    padding: 0 10px;
+}
+
+.lrm {
+    text-align: center;
+}
+
+.lrm p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    height: 180px;
+    border: 3px solid red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card p {
+    margin-top: 30px;
+}
+.Services{
+    overflow: auto;
+}
+.card button {
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    transition: .5s ease-in-out;
+    border: none    ;
+}
+
+.card button:hover {
+    background-color: red;
+
+}
+
+.servis_bottom {
+    margin-top: 30px;
+    text-align: center; 
+}
